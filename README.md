@@ -1,5 +1,5 @@
 
-Lazy Newb Pack Linux V0.40.04
+Lazy Newb Pack Linux V0.40.04 
 -------------
 
 I have assembled a small package to get people started on linux using the LNP interface and Dwarf Therapist updated to v0.40.04. Again a Huge thanks to [kiryl](https://github.com/splintermind/Dwarf-Therapist/pull/26) for doing a same day as release push!
