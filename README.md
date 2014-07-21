@@ -12,7 +12,7 @@ Included Mods
 -------------
 * Lazy Newb Pack for Linux 0.5.3-SNAPSHOT-20130822
 * Utilities:
-* Dwarf Therapist v23 (splintermind, pulled and built from source) with manual updated to v0.40.04
+* [Dwarf Therapist v23](http://dffd.wimbli.com/file.php?id=9003) (splintermind, pulled and built from source) with manual updated to v0.40.04
 * Soundsense r42
 * qfconvert 2.04
 * chromafort 2010-04-25
