@@ -12,13 +12,14 @@ Included Mods
 -------------
 * Lazy Newb Pack for Linux 0.5.3-SNAPSHOT-20130822
 * Utilities:
-* [Dwarf Therapist v23](http://dffd.wimbli.com/file.php?id=9003) (splintermind, pulled and built from source) with manual updated to v0.40.04
+* [Dwarf Therapist v23.2](http://dffd.wimbli.com/file.php?id=9003) (splintermind, pulled and built from source) with manual updated to v0.40.04
 * Soundsense r42
 * qfconvert 2.04
 * chromafort 2010-04-25
 * DF Announcement Filter 1.01
 * Tilesets
     - [16x16] Phoebus v0.40.04
+    - [16x16] Ironhand v0.40.04a
 
     
 DF 40.04 Release notes:
