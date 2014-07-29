@@ -8,6 +8,8 @@ I have assembled a small package to get people started on linux using the LNP in
 
 You can download the package at: http://dffd.wimbli.com/file.php?id=8936
 
+Also Check out the the official thread here: http://www.bay12forums.com/smf/index.php?topic=140966.0
+
 Included Mods
 -------------
 * Lazy Newb Pack for Linux 0.5.3-SNAPSHOT-20130822
