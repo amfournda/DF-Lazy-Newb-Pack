@@ -120,7 +120,7 @@ DF 40.05 Release notes:
 =====
 
 ```
-Usage: sudo ./startlnp
+Usage: ./startlnp
 ```
 
 Tested On
