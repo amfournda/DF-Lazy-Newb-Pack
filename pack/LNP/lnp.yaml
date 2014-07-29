@@ -1,8 +1,6 @@
 customKeybindsFiles: 
 -  name: Classic LNP
    file: Classic LNP.txt
--  name: Peridexis Errant
-   file: PeridexisErrant.txt
 -  name: Vanilla DF
    file: Vanilla DF.txt
 dfDirectory: df_linux
