@@ -52,15 +52,15 @@ utilities:
 -  name: qfconvert 2.04
    autostart: false
    directory: qfconvert/
-   executable: python ./qfconvert.py
+   executable: "python ./qfconvert.py"
    showTerminal: true
 -  name: chromafort 2010-04-25
    autostart: false
    directory: chromafort/
-   executable: Chromafort.jar
+   executable: "Chromafort.jar"
    showTerminal: false
 -  name: DF Announcement Filter 1.01
    autostart: false
    directory: df_announcement_filter/
-   executable: DFAnnouncementFilter.jar
+   executable: "DFAnnouncementFilter.jar"
    showTerminal: false
