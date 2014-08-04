@@ -1,12 +1,12 @@
 
-Lazy Newb Pack Linux V0.40.05 
+Lazy Newb Pack Linux V0.40.06 
 -------------
 
 I have assembled a small package to get people started on linux using the LNP interface and Dwarf Therapist updated to v0.40.05. Again a Huge Thanks to Tarn, Zach and Splintermind, kiryl, PeridexisErrant, fricy and the others who work on open source!
 
 
 
-You can download the package at: http://dffd.wimbli.com/file.php?id=8936
+You can download the package at: 
 
 Also Check out the the official thread here: http://www.bay12forums.com/smf/index.php?topic=140966.0
 
@@ -14,7 +14,7 @@ Included Mods
 -------------
 * Lazy Newb Pack for Linux 0.5.3-SNAPSHOT-20130822
 * Utilities:
-* [Dwarf Therapist v23.2](http://dffd.wimbli.com/file.php?id=9003) (splintermind, pulled and built from source) with manual updated to v0.40.04
+* [Dwarf Therapist v23.2](http://dffd.wimbli.com/file.php?id=9003) (splintermind, pulled and built from source)
 * Soundsense r42
 * qfconvert 2.04
 * chromafort 2010-04-25
@@ -27,67 +27,56 @@ Included Mods
     - [16x16] Spacefox v0.40.05v1
 
     
-DF 40.05 Release notes:
+DF 40.06 Release notes:
 -------------
-"This is a bug fix and optimization release, which is probably something we should get used to for a while, since there is a lot left to do! I've tried to make it possible to play in larger worlds again, but there's also more that can be done."
-
-* Major bug fixes
-    - Fixed several large slow-down culprits
-    - Stopped trees from growing through floors
-    - Fixed a problem causing the suspension of constructions (old saves with affected jobs will still need to restart them) (ag)
-    - Fixed a few problems with hospital code causing them to overstock item (ag)
-    - Fixed problem stopping underground fishing (UristDaVinci/Quietust)
-    - Made cultures that oppose intruders more lax when in places controlled by less wary groups (one cause of marketplace knifefights)
-    - Made adventure-mode ambushers somewhat more in tune with their task
-    - Made master soldiers stop reverting back to corresponding regular soldier type
-    - Fixed crash that could occur when looking at adventure log while traveling
-
-
-* Other bug fixes/tweaks
-
-    - Stopped clearing professions upon achieving master soldier type
-    - Fixed the population cap
-    - Made it possible to detect plantings too late in the season again (Quietust)
-    - Stopped migrants from retaining certain adv/etc. flags harmful to their integration into the fort (making them 'hostile') Note: those from old saves might take off articles of clothing and store them and other strange things, since the integration could not be made complete easily...
-    - Fixed problem with non-entity armies/travelers failing to evaluate nearby creatures properly
-    - Tried to improve prioritization for creatures trying to handle many targets, especially w/ extra senses (caused combat AI paralysis)
-    - Stopped fliers from wanting to jump (and sometimes colliding mid-air)
-    - Added some basic climbing skill to wg/etc. soldiers, esp. thieves
-    - Vermin can escape from non-artifact containers properly (Quietust)
-    - Caravans check weapon type properly for material selection (Quietust)
-    - Diplomats that wanted bodyguards should get them now (Quietust)
-    - Stopped aquarium check from turning off other vermin code (Quietust)
-    - Fixed crash that happened in the arena when doing v-p on a dwarf with a weapon
-    - Creature art value considered properly by civs now (Quietust)
-    - Fixed problem dividing out item milligrams in weapon velocities (UristDaVinci)
-    - Can now melt metal chests (Quietust)
-    - Handled a few problems causing extra/erroneous long patrol thoughts (Quietust)
-    - Made children get full list of default labors upon growing up and respected any existing skills
-    - Stopped migrant historical children from receiving labors
-    - Made underground populations properly respect layer size (the numbers can get very high, but blame the giant under-ocean caves in part)
-    - Stopped hyper-obese digesting dwarves from constantly recalculating insulation/mass data (ag)
-    - Fixed some problems causing certain jobs to check too many items (angavrilov/Quietust)
-    - Allowed egg-laying critters without baby/child state to have viable eggs
-    - Stopped listing dead non-fort animals/etc. as missing
-    - Fixed a rounding error with projectile calculations (Pirate Bob/UristDaVinci)
-    - Adjusted contact area/depth of ammo, max velocity of shooters (Joben)
-    - Fixed a problem causing saplings to grow up 10x as fast as they should
-    - Stopped sparring from being placed in combat reports
-    - Displayed proper key for viewing agreements in civ screen
-    - Stopped dwarves from swiping hospital goods from the caravan
-    - Made the game respect more circumstances whereby medical inventory items are removed (fixing the crutch speed bug, for instance)
-    - Stopped ghosts from being able to realize dreams after they are dead
-    - Fixed problem where tools made from adamantine wafers required the wrong material amounts (Quietust)
-    - Fixed problem with seed initialization for mid-level maps that could cause inconsistency (Quietust)
-    - Fixed broken lack of cage/chain thought for law dwarf (Quietust)
-    - Adjustments to animal people frequencies (see file_changes.txt)
-    - Made king cobra people legless like other snake people
-    - Fixed a problem causing the tortoises not to appear
-    - Made random creature spines connect up properly
-    - Fixed material values for obsidian (UristDaVinci)
-    - Various typos fixed (see file_changes.txt) (thanks to Gorobay for finding most of these)
-    - Re-added elven diplomacy, though it is still unchanged from its first incarnation
-
+**Major bug fixes**
+   * Fixed a problem causing certain jobs to become stuck when their paths were interrupted
+   * Stopped dwarves from starting conflicts with led creatures
+   * Stopped led creatures from wandering away from leader
+   * Made buildings with burrows require a connectivity check when searching for items
+   * Made dwarves forbid webs that are "accessible" but require pathing through unexplored areas
+   * Reduced number of automation jobs created
+   * Made some jobs respect fish/vermin amount when producing products
+   * Make potash from lye respects lye stacks
+   * Made jobs requiring several e.g. bones not need many individual stacks
+   * Made thread spinning job not use up all of a stack of wool
+   * Stopped decoration job from consuming entire stacks
+   * Stopping using entire stack of meat to bait animal trap
+   * Stopped reactions from consuming way too many raw materials from stacks (ag), though reactions that use very small amounts still use at least 1 item from a stack
+   * Stopped mining of root from removing the tree
+    **Other bug fixes/tweaks**
+   * Stopped announcement of theft of hidden reclaimed underground objects
+   * Stopped birth announcements for hidden creatures and separated wild/tame animal birth announcements
+   * Stopped hidden/forbidden buildings from being listed in lever link menu
+   * Stopped hidden/forbidden buildings from appearing in room list
+   * Stopped hidden items from appearing in military equipment lists
+   * Made trees update indoor/etc. settings properly upon removal
+   *  Made building/stockpile menus to respect different window heights
+   *  Made hunger/thirst/etc. indicators display properly in travel
+   * Made vision arc display turn off for blinded creatures
+   *  Made scarred over wounds to broken functional layers continue to impair function
+   * Removed requirement that a creature have a baby/child state to breed
+   * Fixed plant growth consumption preferences (Quietust)
+   * Fixed display of tree roots designated for mining
+   * Fixed reversed display of zone sizing controls
+   * Made random creatures only spit liquid spittle
+   * Fixed state token for mud creature tissues (Quietust)
+   * Stopped traders from bringing unspecified "liquid" from bloodsucking animals (Quietust)
+   * Fixed problem causing multiple plant listings in stockpile
+   * Made jobs properly cut away pieces of corpses for use (so that reanimation etc. respects partial use)
+   * Made reactions count up and trim away body component materials properly
+   * Added wound description for partially butchered parts 
+   * Made globs stackable
+   * Fixed unretire message on linux/osx
+   * Stopped dwarven forges in world gen sites from using thrones instead of anvils
+   * Fixed message for being caught in a cloud of vapor/dust (Quietust)
+   * Removed special materials from dwarf prefs
+   * Clarified generated items in stockpiles (can't remove yet)
+   * Fixed adjectives for randomly generated blowdarts/bolts (old saves still broken)
+   * Made burrow indicator show over hidden areas
+   * Fixed broken language selection for certain names
+   * Can copy basic item type/subtype with reagent using 
+   *  ET_ITEM_DATA_FROM_REAGENT:reagent token:NONE
 
 
 
