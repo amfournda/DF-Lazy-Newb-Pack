@@ -44,17 +44,19 @@ DF 40.06 Release notes:
    * Stopping using entire stack of meat to bait animal trap
    * Stopped reactions from consuming way too many raw materials from stacks (ag), though reactions that use very small amounts still use at least 1 item from a stack
    * Stopped mining of root from removing the tree
+   * 
     **Other bug fixes/tweaks**
+
    * Stopped announcement of theft of hidden reclaimed underground objects
    * Stopped birth announcements for hidden creatures and separated wild/tame animal birth announcements
    * Stopped hidden/forbidden buildings from being listed in lever link menu
    * Stopped hidden/forbidden buildings from appearing in room list
    * Stopped hidden items from appearing in military equipment lists
    * Made trees update indoor/etc. settings properly upon removal
-   *  Made building/stockpile menus to respect different window heights
-   *  Made hunger/thirst/etc. indicators display properly in travel
+   * Made building/stockpile menus to respect different window heights
+   * Made hunger/thirst/etc. indicators display properly in travel
    * Made vision arc display turn off for blinded creatures
-   *  Made scarred over wounds to broken functional layers continue to impair function
+   * Made scarred over wounds to broken functional layers continue to impair function
    * Removed requirement that a creature have a baby/child state to breed
    * Fixed plant growth consumption preferences (Quietust)
    * Fixed display of tree roots designated for mining
@@ -76,7 +78,7 @@ DF 40.06 Release notes:
    * Made burrow indicator show over hidden areas
    * Fixed broken language selection for certain names
    * Can copy basic item type/subtype with reagent using 
-   *  ET_ITEM_DATA_FROM_REAGENT:reagent token:NONE
+   * ET_ITEM_DATA_FROM_REAGENT:reagent token:NONE
 
 
 
