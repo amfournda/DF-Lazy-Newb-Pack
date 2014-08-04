@@ -44,8 +44,8 @@ DF 40.06 Release notes:
    * Stopping using entire stack of meat to bait animal trap
    * Stopped reactions from consuming way too many raw materials from stacks (ag), though reactions that use very small amounts still use at least 1 item from a stack
    * Stopped mining of root from removing the tree
-   * 
-    **Other bug fixes/tweaks**
+
+**Other bug fixes/tweaks**
 
    * Stopped announcement of theft of hidden reclaimed underground objects
    * Stopped birth announcements for hidden creatures and separated wild/tame animal birth announcements
