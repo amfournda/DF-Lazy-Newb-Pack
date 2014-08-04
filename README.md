@@ -2,7 +2,7 @@
 Lazy Newb Pack Linux V0.40.06 
 -------------
 
-I have assembled a small package to get people started on linux using the LNP interface and Dwarf Therapist updated to v0.40.05. Again a Huge Thanks to Tarn, Zach and Splintermind, kiryl, PeridexisErrant, fricy and the others who work on open source!
+I have assembled a small package to get people started on linux using the LNP interface and [Dwarf Therapist v23.2](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014). Again a Huge Thanks to Tarn, Zach and Splintermind, kiryl, PeridexisErrant, fricy and the others who work on open source!
 
 
 
@@ -25,6 +25,8 @@ Included Mods
     - [16x16] Ironhand v0.40.05v1
     - [16x16] Mayday v0.40.05v0
     - [16x16] Spacefox v0.40.05v1
+
+
 
     
 DF 40.06 Release notes:
@@ -77,9 +79,18 @@ DF 40.06 Release notes:
    * Fixed adjectives for randomly generated blowdarts/bolts (old saves still broken)
    * Made burrow indicator show over hidden areas
    * Fixed broken language selection for certain names
-   * Can copy basic item type/subtype with reagent using 
+   * Can copy basic item type/subtype with reagent using
    * ET_ITEM_DATA_FROM_REAGENT:reagent token:NONE
 
+  Dependencies
+-------------
+
+# Install required packages
+
+ For Debian / Ubuntu
+```
+sudo apt-get install default-jre libsdl1.2debian:i386 libsdl-image1.2:i386 libsdl-ttf2.0-0:i386 libglu1-mesa:i386 libgtk2.0-0:i386 libopenal1:i386 libjpeg62:i386 git mercurial wget coreutils tar unzip unrar make g++ gcc patch xterm sed python bzip2 qtchooser qtbase5-dev qtbase5-dev-tools qtscript5-dev qt5-qmake libqt5script5 libqt5scripttools5 libqxt-core0 libqxt-gui0
+```
 
 
   System Requirements
@@ -93,7 +104,7 @@ DF 40.06 Release notes:
 * LibJPEG 6.2, 32-bit
 * Git
 * Mercurial (hg)
-* Qt4 Development Libraries including qmake
+* Qt5 Development Libraries including qmake
 * Python 2.x (for Quickfort)
 * The following fairly standard Linux utilities:
   - wget
