@@ -15,14 +15,18 @@ Included Mods
 * Lazy Newb Pack for Linux 0.5.3-SNAPSHOT-20130822
 * Utilities:
 * [Dwarf Therapist v23.4](http://dffd.wimbli.com/file.php?id=9003) (splintermind, pulled and built from source)
-* Soundsense r42
-* qfconvert 2.04
-* chromafort 2010-04-25
-* DF Announcement Filter 1.01
+* [Soundsense r43](http://df.zweistein.cz/soundsense/) (need to run auto update on first use)
+* [qfconvert 2.04](http://www.joelpt.net/quickfort/)
+* [chromafort 2010-04-25](http://www.bay12forums.com/smf/index.php?topic=55025.0)
+* [DF Announcement Filter 1.01](http://www.bay12forums.com/smf/index.php?topic=130030.0)
+* [World Viewer for DF 40.0x](http://www.bay12forums.com/smf/index.php?topic=128932.0) (works with wine)
 * Tilesets
-    - [16x16] Default ASCII
+    - [8x16] Default ASCII
     - [16x16] Ironhand v0.40.06
-    - [16x16] Phoebus v0.40.06v00
+    - [16x16] Phoebus v0.40.06 v01
+    - [16x16] CLA v0.40.06 v00
+    - [16x16] Mayday v0.40.06
+    - [16x16] Spacefox v0.40.06 v00
 
 
 
