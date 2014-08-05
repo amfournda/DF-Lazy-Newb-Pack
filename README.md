@@ -2,7 +2,7 @@
 Lazy Newb Pack Linux V0.40.06 
 -------------
 
-I have assembled a small package to get people started on linux using the LNP interface and [Dwarf Therapist v23.2](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014). Again a Huge Thanks to Tarn, Zach and Splintermind, kiryl, PeridexisErrant, fricy and the others who work on open source!
+I have assembled a small package to get people started on linux using the LNP interface and [Dwarf Therapist v23.4](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014). Again a Huge Thanks to Tarn, Zach and Splintermind, kiryl, PeridexisErrant, fricy and the others who work on open source!
 
 
 
@@ -14,17 +14,13 @@ Included Mods
 -------------
 * Lazy Newb Pack for Linux 0.5.3-SNAPSHOT-20130822
 * Utilities:
-* [Dwarf Therapist v23.2](http://dffd.wimbli.com/file.php?id=9003) (splintermind, pulled and built from source)
+* [Dwarf Therapist v23.4](http://dffd.wimbli.com/file.php?id=9003) (splintermind, pulled and built from source)
 * Soundsense r42
 * qfconvert 2.04
 * chromafort 2010-04-25
 * DF Announcement Filter 1.01
 * Tilesets
-    - [16x16] Phoebus v0.40.05v1
-    - [16x16] CLA v0.40.05v1
-    - [16x16] Ironhand v0.40.05v1
-    - [16x16] Mayday v0.40.05v0
-    - [16x16] Spacefox v0.40.05v1
+    - [16x16] Phoebus v0.40.06v00
 
 
 
