@@ -22,6 +22,7 @@ Included Mods
 * [World Viewer for DF 40.0x](http://www.bay12forums.com/smf/index.php?topic=128932.0) (works with wine)
 * Tilesets
     - [8x16] Default ASCII
+    - [16x16] ASCII
     - [16x16] Ironhand v0.40.06
     - [16x16] Phoebus v0.40.06 v01
     - [16x16] CLA v0.40.06 v00
