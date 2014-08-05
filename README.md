@@ -6,7 +6,7 @@ I have assembled a small package to get people started on linux using the LNP in
 
 
 
-You can download the package at: 
+You can download the package at: http://dffd.wimbli.com/file.php?id=8936
 
 Also Check out the the official thread here: http://www.bay12forums.com/smf/index.php?topic=140966.0
 
@@ -20,6 +20,8 @@ Included Mods
 * chromafort 2010-04-25
 * DF Announcement Filter 1.01
 * Tilesets
+    - [16x16] Default ASCII
+    - [16x16] Ironhand v0.40.06
     - [16x16] Phoebus v0.40.06v00
 
 
