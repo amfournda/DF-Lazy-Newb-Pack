@@ -5,7 +5,7 @@ Date: 8th August 2014
 
 Revision: R5
 
-Notes: r5: Fixed minor bug in yaml, fixed a problem with DT not loading on first run
+Notes: r5: Fixed minor bug in yaml, fixed a problem with DT not loading on first run. Also included Dwimenor's patch to prevent mouse.png errors
 
 
 ------------------
