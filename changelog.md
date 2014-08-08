@@ -1,6 +1,17 @@
 change log
 ------------------
 
+Date: 8th August 2014
+
+Revision: R5
+
+Notes: r5: Fixed minor bug in yaml, fixed a problem with DT not loading on first run
+
+
+------------------
+
+
+
 Date: 5th August 2014
 
 Revision: R3
