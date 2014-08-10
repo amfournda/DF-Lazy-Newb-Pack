@@ -1,5 +1,5 @@
 
-Lazy Newb Pack Linux V0.40.06 
+Lazy Newb Pack Linux V0.40.07 
 -------------
 
 I have assembled a small package to get people started on linux using the LNP interface and [Dwarf Therapist v23.4](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014). Again a Huge Thanks to Tarn, Zach and Splintermind, kiryl, PeridexisErrant, fricy and the others who work on open source!
@@ -14,7 +14,6 @@ Included Mods
 -------------
 * Lazy Newb Pack for Linux 0.5.3-SNAPSHOT-20130822
 * Utilities:
-* [Dwarf Therapist v23.4](http://dffd.wimbli.com/file.php?id=9003) (splintermind, pulled and built from source)
 * [Soundsense r43](http://df.zweistein.cz/soundsense/) (need to run auto update on first use)
 * [qfconvert 2.04](http://www.joelpt.net/quickfort/)
 * [chromafort 2010-04-25](http://www.bay12forums.com/smf/index.php?topic=55025.0)
@@ -23,67 +22,58 @@ Included Mods
 * Tilesets
     - [8x16] Default ASCII
     - [16x16] ASCII
-    - [16x16] Ironhand v0.40.06
-    - [16x16] Phoebus v0.40.06 v01
-    - [16x16] CLA v0.40.06 v00
-    - [16x16] Mayday v0.40.06
-    - [16x16] Spacefox v0.40.06 v00
+    - [16x16] Ironhand v0.40.07
+    - [16x16] Phoebus v0.40.07 v00
+    - [16x16] CLA v0.40.07 v00
+    - [16x16] Mayday v0.40.07
+    - [16x16] Spacefox v0.40.07 v00
 
 
 
     
-DF 40.06 Release notes:
+DF 40.07 Release notes:
 -------------
+Enjoy another set of bug fixes!
+
 **Major bug fixes**
-   * Fixed a problem causing certain jobs to become stuck when their paths were interrupted
-   * Stopped dwarves from starting conflicts with led creatures
-   * Stopped led creatures from wandering away from leader
-   * Made buildings with burrows require a connectivity check when searching for items
-   * Made dwarves forbid webs that are "accessible" but require pathing through unexplored areas
-   * Reduced number of automation jobs created
-   * Made some jobs respect fish/vermin amount when producing products
-   * Make potash from lye respects lye stacks
-   * Made jobs requiring several e.g. bones not need many individual stacks
-   * Made thread spinning job not use up all of a stack of wool
-   * Stopped decoration job from consuming entire stacks
-   * Stopping using entire stack of meat to bait animal trap
-   * Stopped reactions from consuming way too many raw materials from stacks (ag), though reactions that use very small amounts still use at least 1 item from a stack
-   * Stopped mining of root from removing the tree
+
+    * Fixed crash that involved promoting certain stops above their route
+    * Removed some stale invasion data preventing further invasions
+    * Stopped dwarves from breeding like animals, technically speaking
+    * Made diplomats search for civ-level land-holders properly
+    * Fixed some path buffering problems that could screw up neighbor list etc.
+    * Fixed a few problems with undead AI
+    * Stopped sleeping/incapacitated dwarves from doing things
+    * Fixed problem with squad leader assignment in military screen
+    * Made sparring people use their weapons properly
+    * Made unretired forts unhide fully, flowing from surface and all units
 
 **Other bug fixes/tweaks**
 
-   * Stopped announcement of theft of hidden reclaimed underground objects
-   * Stopped birth announcements for hidden creatures and separated wild/tame animal birth announcements
-   * Stopped hidden/forbidden buildings from being listed in lever link menu
-   * Stopped hidden/forbidden buildings from appearing in room list
-   * Stopped hidden items from appearing in military equipment lists
-   * Made trees update indoor/etc. settings properly upon removal
-   * Made building/stockpile menus to respect different window heights
-   * Made hunger/thirst/etc. indicators display properly in travel
-   * Made vision arc display turn off for blinded creatures
-   * Made scarred over wounds to broken functional layers continue to impair function
-   * Removed requirement that a creature have a baby/child state to breed
-   * Fixed plant growth consumption preferences (Quietust)
-   * Fixed display of tree roots designated for mining
-   * Fixed reversed display of zone sizing controls
-   * Made random creatures only spit liquid spittle
-   * Fixed state token for mud creature tissues (Quietust)
-   * Stopped traders from bringing unspecified "liquid" from bloodsucking animals (Quietust)
-   * Fixed problem causing multiple plant listings in stockpile
-   * Made jobs properly cut away pieces of corpses for use (so that reanimation etc. respects partial use)
-   * Made reactions count up and trim away body component materials properly
-   * Added wound description for partially butchered parts 
-   * Made globs stackable
-   * Fixed unretire message on linux/osx
-   * Stopped dwarven forges in world gen sites from using thrones instead of anvils
-   * Fixed message for being caught in a cloud of vapor/dust (Quietust)
-   * Removed special materials from dwarf prefs
-   * Clarified generated items in stockpiles (can't remove yet)
-   * Fixed adjectives for randomly generated blowdarts/bolts (old saves still broken)
-   * Made burrow indicator show over hidden areas
-   * Fixed broken language selection for certain names
-   * Can copy basic item type/subtype with reagent using
-   * ET_ITEM_DATA_FROM_REAGENT:reagent token:NONE
+    * Made masterpiece announcements wait for all item info to be decided before trying to print item name
+    * Eliminated an OSX key conflict for text deletion
+    * Made install colony jobs respect each other's targets
+    * Made install colony jobs react to missing hive at gather destination
+    * Added another adjustment to designation jobs to help them vs. paths that became bad
+    * Required animal hauling labor for various jobs
+    * Added new labors for hauling trade goods, pulling levers, removing constructions and hauling water
+    * Attached trap cleaning to clean labor
+    * Made laborless building construct/destroy jobs take furniture hauling
+    * Allowed burrows to restrict workshop item search or not (default off)
+    * Added assigned citizen number to burrow list
+    * Stopped paralyzed injured dwarves from spamming rest cancellation messages
+    * Stopped some CPU-intensive temperature wobble (ag)
+    * Cleaned up the creature pressure plate interface
+    * Made paved roads only need as much material as required by the road tiles (rather than the whole rectangle)
+    * Made translated name appear properly at the top of the screen when viewing creature
+    * Stopped dwarves from liking special items
+    * Fixed a problem with unnamed historical figure statue/figurine item names and descriptions
+    * Fixed color display problem in civ list
+    * Gave not-you civs range of 30 path-wise for neighbor status on embark (towers still 10)
+    * Allowed use of number in burrow names without moving cursor
+    * SDL string question mark should no longer enter as a pipe, and pipe should be enterable
+    * Respected question mark entry in several places
+
 
   Dependencies
 -------------
