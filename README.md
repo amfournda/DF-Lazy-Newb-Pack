@@ -5,6 +5,11 @@ Lazy Newb Pack Linux V0.40.07
 I have assembled a small package to get people started on linux using the LNP interface and [Dwarf Therapist v23.4](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014). Again a Huge Thanks to Tarn, Zach and Splintermind, kiryl, PeridexisErrant, fricy and the others who work on open source!
 
 
+NOTE
+-------------
+Updated the LNP to DF v0.40.07; Due to the labor changes it may take a little while for Splintermind, kiryl and the other open source Gods to update the DT interface/memory maps. I have released this early version for those who can play without DT. 
+
+
 
 You can download the package at: http://dffd.wimbli.com/file.php?id=8936
 
