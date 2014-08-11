@@ -31,7 +31,7 @@ Included Mods
     - [16x16] [Phoebus v0.40.07 v00](http://www.bay12forums.com/smf/index.php?topic=137096.0)
     - [16x16] CLA v0.40.07 v00
     - [16x16] Mayday v0.40.07
-    - [16x16] Spacefox v0.40.07 v00
+    - [16x16] [Spacefox v0.40.07 v00](http://www.bay12forums.com/smf/index.php?topic=129219.0)
 
 
 
