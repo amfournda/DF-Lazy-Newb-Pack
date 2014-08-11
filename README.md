@@ -1,5 +1,5 @@
 
-Lazy Newb Pack Linux V0.40.07 
+Lazy Newb Pack Linux V0.40.08 
 -------------
 
 I have assembled a small package to get people started on linux using the LNP interface and [Dwarf Therapist v23.4](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014). Again a Huge Thanks to Tarn, Zach and Splintermind, kiryl, PeridexisErrant, fricy and the others who work on open source!
@@ -24,10 +24,10 @@ Included Mods
 * Tilesets
     - [8x16] Default ASCII
     - [16x16] ASCII
-    - [16x16] [Ironhand v0.40.07 v01](http://dffd.wimbli.com/file.php?id=8747)
-    - [16x16] [Phoebus v0.40.07 v00](http://www.bay12forums.com/smf/index.php?topic=137096.0)
-    - [16x16] [CLA v0.40.07](http://www.bay12forums.com/smf/index.php?topic=105376.0)
-    - [16x16] [Mayday v0.40.07](http://goblinart.pl/vg-eng/df.php)
+    - [16x16] [Ironhand v0.40.08 v01](http://dffd.wimbli.com/file.php?id=8747)
+    - [16x16] [Phoebus v0.40.08 v00](http://www.bay12forums.com/smf/index.php?topic=137096.0)
+    - [16x16] [CLA v0.40.08](http://www.bay12forums.com/smf/index.php?topic=105376.0)
+    - [16x16] [Mayday v0.40.08](http://goblinart.pl/vg-eng/df.php)
 
 
  also includes
@@ -35,9 +35,13 @@ Included Mods
 
 
 
+DF 40.08 Release notes:
+-------------
 
+**Major bug fixes**
 
-
+    * Stopped ESC from ending the game when setting up fort or adventurer
+    * Made constructions use materials properly again
     
 DF 40.07 Release notes:
 -------------
