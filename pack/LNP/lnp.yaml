@@ -11,16 +11,14 @@ graphicsPacks:
    directory: '[16x16] ASCII'
 -  name: '[8x16] ASCII [Vanilla]'
    directory: '[8x16] ASCII'
--  name: '[16x16] Phoebus v0.40.06v00'
-   directory: '[16x16] Phoebus v0.40.06v00'
--  name: '[16x16] Ironhand v0.40.06v00'
-   directory: '[16x16] Ironhand v0.40.06v00'
--  name: '[16x16] CLA v0.40.06'
-   directory: '[16x16] CLA v0.40.06v00'
--  name: '[16x16] Mayday v0.40.06'
-   directory: '[16x16] Mayday v0.40.06'
--  name: '[16x16] Spacefox v0.40.06v00'
-   directory: '[16x16] Spacefox v0.40.06v00'
+-  name: '[16x16] Phoebus v0.40.07v00'
+   directory: '[16x16] Phoebus v0.40.07v00'
+-  name: '[16x16] Ironhand v0.40.07 v01'
+   directory: '[16x16] Ironhand v0.40.07 v01'
+-  name: '[16x16] CLA v0.40.07'
+   directory: '[16x16] CLA v0.40.07v00'
+-  name: '[16x16] Mayday v0.40.07'
+   directory: '[16x16] Mayday v0.40.07'
 launchDfWithTerminal: true
 links: 
 -  separator: false
@@ -33,23 +31,23 @@ links:
    title: Dwarf Fortress Wiki
    url: http://dwarffortresswiki.org
 -  separator: false
-   title: Lazy Newb Pack Linux V0.40.06 bay12 thread
+   title: Lazy Newb Pack Linux V0.40.07 bay12 thread
    url: http://www.bay12forums.com/smf/index.php?topic=140966.0
 -  separator: false
-   title: Lazy Newb Pack Linux V0.40.06 DFFD
+   title: Lazy Newb Pack Linux V0.40.07 DFFD
    url: http://dffd.wimbli.com/file.php?id=8936
 -  separator: true
-   title: Lazy Newb Pack Linux V0.40.06 Project page
+   title: Lazy Newb Pack Linux V0.40.07 Project page
    url: https://github.com/BeauBouchard/DF-Lazy-Newb-Pack/blob/master/README.md
 terminalPath: xterm
 utilities: 
 -  name: Soundsense r43
-   autostart: true
+   autostart: false
    directory: soundsense/
    executable: soundSense.sh
    showTerminal: false
 -  name: Dwarf Therapist
-   autostart: true
+   autostart: false
    directory: dwarf_therapist/
    executable: DwarfTherapist
    showTerminal: false
