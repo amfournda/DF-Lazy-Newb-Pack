@@ -14,12 +14,13 @@ Included Mods
 -------------
 * Lazy Newb Pack for Linux 0.5.3-SNAPSHOT-20130822
 * Utilities:
-* [Dwarf Therapist v23.4](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014) 
-* [Soundsense r43](http://df.zweistein.cz/soundsense/) (need to run auto update on first use)
-* [qfconvert 2.04](http://www.joelpt.net/quickfort/)
-* [chromafort 2010-04-25](http://www.bay12forums.com/smf/index.php?topic=55025.0)
-* [DF Announcement Filter 1.01](http://www.bay12forums.com/smf/index.php?topic=130030.0)
-* [World Viewer for DF 40.0x](http://www.bay12forums.com/smf/index.php?topic=128932.0) (works with wine)
+
+    * [Dwarf Therapist v23.4](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014) 
+    * [Soundsense r43](http://df.zweistein.cz/soundsense/) (need to run auto update on first use)
+    * [qfconvert 2.04](http://www.joelpt.net/quickfort/)
+    * [chromafort 2010-04-25](http://www.bay12forums.com/smf/index.php?topic=55025.0)
+    * [DF Announcement Filter 1.01](http://www.bay12forums.com/smf/index.php?topic=130030.0)
+    * [World Viewer for DF 40.0x](http://www.bay12forums.com/smf/index.php?topic=128932.0) (works with wine)
 * Tilesets
     - [8x16] Default ASCII
     - [16x16] ASCII
