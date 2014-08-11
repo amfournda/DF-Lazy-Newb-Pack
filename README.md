@@ -29,7 +29,7 @@ Included Mods
     - [16x16] ASCII
     - [16x16] [Ironhand v0.40.07 v01](http://dffd.wimbli.com/file.php?id=8747)
     - [16x16] [Phoebus v0.40.07 v00](http://www.bay12forums.com/smf/index.php?topic=137096.0)
-    - [16x16] CLA v0.40.07 v00
+    - [16x16] [CLA v0.40.07](http://www.bay12forums.com/smf/index.php?topic=105376.0)
     - [16x16] Mayday v0.40.07
     - [16x16] [Spacefox v0.40.07 v00](http://www.bay12forums.com/smf/index.php?topic=129219.0)
 
