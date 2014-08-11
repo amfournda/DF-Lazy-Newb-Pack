@@ -32,6 +32,11 @@ Included Mods
     - [16x16] [CLA v0.40.07](http://www.bay12forums.com/smf/index.php?topic=105376.0)
     - [16x16] [Mayday v0.40.07](http://goblinart.pl/vg-eng/df.php)
     - [16x16] [Spacefox v0.40.07 v00](http://www.bay12forums.com/smf/index.php?topic=129219.0)
+ * also includes
+ * [Captian Duck's DF2014 Embark Profile V3](http://www.reddit.com/r/dwarffortress/comments/2bzrqg/dfvidtuts2014_embark_profile_beta_testing/)
+ * 
+
+
 
 
 
