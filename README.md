@@ -26,7 +26,6 @@ Included Mods
     - [16x16] [Phoebus v0.40.0x](http://www.bay12forums.com/smf/index.php?topic=137096.0)
     - [16x16] [CLA v0.40.0x](http://www.bay12forums.com/smf/index.php?topic=105376.0)
     - [16x16] [Mayday v0.40.0x](http://goblinart.pl/vg-eng/df.php)
-    - 
 
  also includes
  * [Captian Duck's DF2014 Embark Profile V3](http://www.reddit.com/r/dwarffortress/comments/2bzrqg/dfvidtuts2014_embark_profile_beta_testing/)
