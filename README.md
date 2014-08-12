@@ -2,9 +2,7 @@
 Lazy Newb Pack Linux V0.40.08 
 -------------
 
-I have assembled a small package to get people started on linux using the LNP interface and [Dwarf Therapist v23.4](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014). Again a Huge Thanks to Tarn, Zach and Splintermind, kiryl, PeridexisErrant, fricy and the others who work on open source!
-
-
+I have assembled a small package to get people started on linux using the LNP interface and [Dwarf Therapist v23.6](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014). Again a Huge Thanks to Tarn, Zach and Splintermind, kiryl, PeridexisErrant, fricy and the others who work on open source!
 
 You can download the package at: http://dffd.wimbli.com/file.php?id=8936
 
@@ -15,25 +13,26 @@ Included Mods
 * Lazy Newb Pack for Linux 0.5.3-SNAPSHOT-20130822
 * Utilities:
 
-    * [Dwarf Therapist v23.4](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014) 
+    * [Dwarf Therapist v23.6](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014) 
     * [Soundsense r43](http://df.zweistein.cz/soundsense/) (need to run auto update on first use)
     * [qfconvert 2.04](http://www.joelpt.net/quickfort/)
     * [chromafort 2010-04-25](http://www.bay12forums.com/smf/index.php?topic=55025.0)
     * [DF Announcement Filter 1.01](http://www.bay12forums.com/smf/index.php?topic=130030.0)
     * [World Viewer for DF 40.0x](http://www.bay12forums.com/smf/index.php?topic=128932.0) (works with wine)
 * Tilesets
-    - [8x16] Default ASCII
+    - [8x12] Default ASCII
     - [16x16] ASCII
-    - [16x16] [Ironhand v0.40.08 v01](http://dffd.wimbli.com/file.php?id=8747)
-    - [16x16] [Phoebus v0.40.08 v00](http://www.bay12forums.com/smf/index.php?topic=137096.0)
-    - [16x16] [CLA v0.40.08](http://www.bay12forums.com/smf/index.php?topic=105376.0)
-    - [16x16] [Mayday v0.40.08](http://goblinart.pl/vg-eng/df.php)
-
+    - [16x16] [Ironhand v0.40.0x](http://dffd.wimbli.com/file.php?id=8747)
+    - [16x16] [Phoebus v0.40.0x](http://www.bay12forums.com/smf/index.php?topic=137096.0)
+    - [16x16] [CLA v0.40.0x](http://www.bay12forums.com/smf/index.php?topic=105376.0)
+    - [16x16] [Mayday v0.40.0x](http://goblinart.pl/vg-eng/df.php)
+    - 
 
  also includes
  * [Captian Duck's DF2014 Embark Profile V3](http://www.reddit.com/r/dwarffortress/comments/2bzrqg/dfvidtuts2014_embark_profile_beta_testing/)
  * [Dwarf Therapist user Guide by ResMar](http://dffd.wimbli.com/file.php?id=7889)
 
+Now using [fricy's Updated tilesets](https://github.com/fricy/DFgraphics)!
 
 
 DF 40.08 Release notes:
