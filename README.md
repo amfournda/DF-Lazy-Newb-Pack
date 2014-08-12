@@ -19,19 +19,26 @@ Included Mods
     * [chromafort 2010-04-25](http://www.bay12forums.com/smf/index.php?topic=55025.0)
     * [DF Announcement Filter 1.01](http://www.bay12forums.com/smf/index.php?topic=130030.0)
     * [World Viewer for DF 40.0x](http://www.bay12forums.com/smf/index.php?topic=128932.0) (works with wine)
-* Tilesets
-    - [8x12] Default ASCII
+* Tilesets (Now using [fricy's Updated tilesets](https://github.com/fricy/DFgraphics)!)
+    - [12x8] ASCII [Default]
     - [16x16] ASCII
-    - [16x16] [Ironhand v0.40.0x](http://dffd.wimbli.com/file.php?id=8747)
-    - [16x16] [Phoebus v0.40.0x](http://www.bay12forums.com/smf/index.php?topic=137096.0)
     - [16x16] [CLA v0.40.0x](http://www.bay12forums.com/smf/index.php?topic=105376.0)
-    - [16x16] [Mayday v0.40.0x](http://goblinart.pl/vg-eng/df.php)
+    - [12x12] [Grim Fortress 1.2](http://www.bay12forums.com/smf/index.php?topic=122421.0)
+    - [32x32] [DawnFortress v0.28](http://www.bay12forums.com/smf/index.php?topic=136221.msg4992910#msg4992910)
+    - [16x16] [Phoebus v0.40.0x](http://www.bay12forums.com/smf/index.php?topic=137096.0)
+    - [16x16] [Ironhand v0.40.0x](http://dffd.wimbli.com/file.php?id=8747)
+    - [16x16] [Mayday v0.40.0x](http://goblinart.pl/vg-eng/df.php) with [Doren's additions](http://www.bay12forums.com/smf/index.php?topic=141195.0)
+    - [12x12] [Jolly Bastion](http://www.bay12forums.com/smf/index.php?topic=104261.0)
+    - [16x20] [Shizzle 1.3](http://dffd.wimbli.com/file.php?id=7205)
+    - [16x16] [Spacefox Afro v40.x](http://dffd.wimbli.com/file.php?id=9137)
+    - [20x20] [Taffer XVI](http://www.bay12forums.com/smf/index.php?topic=107924.0)
+    - [24x24] [Vherid v6](http://www.bay12forums.com/smf/index.php?topic=89856.0)
 
  also includes
  * [Captian Duck's DF2014 Embark Profile V3](http://www.reddit.com/r/dwarffortress/comments/2bzrqg/dfvidtuts2014_embark_profile_beta_testing/)
  * [Dwarf Therapist user Guide by ResMar](http://dffd.wimbli.com/file.php?id=7889)
 
-Now using [fricy's Updated tilesets](https://github.com/fricy/DFgraphics)!
+
 
 
 DF 40.08 Release notes:
