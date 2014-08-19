@@ -1,8 +1,8 @@
 
-Lazy Newb Pack Linux V0.40.08 
+Lazy Newb Pack Linux V0.40.09
 -------------
 
-I have assembled a small package to get people started on linux using the LNP interface and [Dwarf Therapist v23.6](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014). Again a Huge Thanks to Tarn, Zach and Splintermind, kiryl, PeridexisErrant, fricy and the others who work on open source!
+I have assembled a small package to get people started on linux using the LNP interface and [Dwarf Therapist v24](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014). Again a Huge Thanks to Tarn, Zach and Splintermind, kiryl, PeridexisErrant, fricy and the others who work on open source!
 
 You can download the package at: http://dffd.wimbli.com/file.php?id=8936
 
@@ -12,8 +12,7 @@ Included Mods
 -------------
 * Lazy Newb Pack for Linux 0.5.3-SNAPSHOT-20130822
 * Utilities:
-    * [DFHack](https://github.com/DFHack/dfhack)[r2](http://www.bay12forums.com/smf/index.php?topic=139553.0)
-    * [Dwarf Therapist v23.6](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014) 
+    * [Dwarf Therapist v24](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014) 
     * [Soundsense r43](http://df.zweistein.cz/soundsense/) (need to run auto update on first use)
     * [qfconvert 2.04](http://www.joelpt.net/quickfort/)
     * [chromafort 2010-04-25](http://www.bay12forums.com/smf/index.php?topic=55025.0)
@@ -23,8 +22,9 @@ Included Mods
     - [12x8] ASCII [Default]
     - [16x16] ASCII
     - [16x16] [CLA v0.40.0x](http://www.bay12forums.com/smf/index.php?topic=105376.0)
-    - [12x12] [Grim Fortress 1.2](http://www.bay12forums.com/smf/index.php?topic=122421.0)
+    - [15x15] [Duerer](http://www.bay12forums.com/smf/index.php?topic=142083.0)
     - [32x32] [DawnFortress v0.28](http://www.bay12forums.com/smf/index.php?topic=136221.msg4992910#msg4992910)
+    - [12x12] [Grim Fortress 1.2](http://www.bay12forums.com/smf/index.php?topic=122421.0)
     - [16x16] [Phoebus v0.40.0x](http://www.bay12forums.com/smf/index.php?topic=137096.0)
     - [16x16] [Ironhand v0.40.0x](http://dffd.wimbli.com/file.php?id=8747)
     - [16x16] [Mayday v0.40.0x](http://goblinart.pl/vg-eng/df.php) with [Doren's additions](http://www.bay12forums.com/smf/index.php?topic=141195.0)
@@ -41,57 +41,47 @@ Included Mods
 
 
 
-DF 40.08 Release notes:
+DF 40.09 Release notes:
 -------------
 
 **Major bug fixes**
 
     * Stopped ESC from ending the game when setting up fort or adventurer
     * Made constructions use materials properly again
-    
-DF 40.07 Release notes:
--------------
-Enjoy another set of bug fixes!
-
-**Major bug fixes**
-
-    * Fixed crash that involved promoting certain stops above their route
-    * Removed some stale invasion data preventing further invasions
-    * Stopped dwarves from breeding like animals, technically speaking
-    * Made diplomats search for civ-level land-holders properly
-    * Fixed some path buffering problems that could screw up neighbor list etc.
-    * Fixed a few problems with undead AI
-    * Stopped sleeping/incapacitated dwarves from doing things
-    * Fixed problem with squad leader assignment in military screen
-    * Made sparring people use their weapons properly
-    * Made unretired forts unhide fully, flowing from surface and all units
+    * Fixed problem causing domestic underground animals to be placed beyond their number (and then replaced at that new number)
+    * Made people not so eager to jump in on the side of their relatives and friends if the relative/friend is berserk/etc.
+    * Made creatures prefer to flee normally if possible (rather than jumping off cliffs etc.)
+    * Stopped liquid flows in confined spaces from sometimes making items disappear
+    * Made items that froze in ice reappear properly when ice melts
+    * Allowed dwarves interested in marriage to start relationships properly (Quietust)
+    * Removed some vestigial code stopping wagons from moving properly after move/attack speed split
+    * Fixed a wagon AI error that caused them to fail to unload sometimes
+    * Gave wagons the ability to go past each other in certain instances
+    * Made invaders not come back as ghosts
+    * Stopped non-historical dwarves from coming back as ghosts (put in fix for old saves that should lay them to rest soon after unpause)
+    * Stopped ghosts from being considered in regular sight code
+    * Fixed the defend burrow order
+    * Allowed items made from gem materials (including large gems) to be stored in finished goods pile
+    * Fixed broken logic that made trade good hauling require both trade good hauling and lever operation labors
 
 **Other bug fixes/tweaks**
 
-    * Made masterpiece announcements wait for all item info to be decided before trying to print item name
-    * Eliminated an OSX key conflict for text deletion
-    * Made install colony jobs respect each other's targets
-    * Made install colony jobs react to missing hive at gather destination
-    * Added another adjustment to designation jobs to help them vs. paths that became bad
-    * Required animal hauling labor for various jobs
-    * Added new labors for hauling trade goods, pulling levers, removing constructions and hauling water
-    * Attached trap cleaning to clean labor
-    * Made laborless building construct/destroy jobs take furniture hauling
-    * Allowed burrows to restrict workshop item search or not (default off)
-    * Added assigned citizen number to burrow list
-    * Stopped paralyzed injured dwarves from spamming rest cancellation messages
-    * Stopped some CPU-intensive temperature wobble (ag)
-    * Cleaned up the creature pressure plate interface
-    * Made paved roads only need as much material as required by the road tiles (rather than the whole rectangle)
-    * Made translated name appear properly at the top of the screen when viewing creature
-    * Stopped dwarves from liking special items
-    * Fixed a problem with unnamed historical figure statue/figurine item names and descriptions
-    * Fixed color display problem in civ list
-    * Gave not-you civs range of 30 path-wise for neighbor status on embark (towers still 10)
-    * Allowed use of number in burrow names without moving cursor
-    * SDL string question mark should no longer enter as a pipe, and pipe should be enterable
-    * Respected question mark entry in several places
-
+    * Fixed up quarry bush bag job vs. rock nuts
+    * Added appropriate announcements for some additional circumstances under which a fort dwarf could assume a civ-level position
+    * Added embark warning if civ is dead
+    * Added optional confirmation window after preparing embark (default: pops up if points remain)
+    * Printed job after name when following unit
+    * Marked dwarves as "New Arrival" on unit/job screen instead of "No Job" while they are new
+    * Added pole-setting parameters for world gen, allowed north+south pole and no-pole options
+    * Fixed an error causing nearby site maps to be offloaded too often
+    * Made hill dwarf sites put animals in pastures properly
+    * Made animals not placed in pasture/waste/yard get placed even if their preferred type isn't available
+    * Fixed some manual typos (Gorobay)
+    * Initialized strict pop cap to 220 if not present in d_init
+    * Made alerts without names show properly as "Alert State #" in squad mode
+    * Finished updating pineapple raws
+    * Made several export filenames use the format (region)-YYYYY-MM-DD-(etc)
+    * Added error for unrecognized CREATURE in entity raw
 
   Dependencies
 -------------
