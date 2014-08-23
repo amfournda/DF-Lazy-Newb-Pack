@@ -4,9 +4,18 @@ Lazy Newb Pack Linux V0.40.09
 
 I have assembled a small package to get people started on linux using the LNP interface and [Dwarf Therapist v24](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014). Again a Huge Thanks to Tarn, Zach and Splintermind, kiryl, PeridexisErrant, fricy and the others who work on open source!
 
+
 You can download the package at: http://dffd.wimbli.com/file.php?id=8936
 
 Also Check out the the official thread here: http://www.bay12forums.com/smf/index.php?topic=140966.0
+
+
+Similar packages also available in windows and Mac:
+
+Windows Version: [PeridexisErrant's Starter Pack](http://www.bay12forums.com/smf/index.php?topic=126076.0)
+
+Mac Version: [Fricy's MacNewbie Pack](http://www.bay12forums.com/smf/index.php?topic=128960.0)
+
 
 Included Mods
 -------------
@@ -126,6 +135,24 @@ sudo apt-get install default-jre libsdl1.2debian:i386 libsdl-image1.2:i386 libsd
 Usage: ./startlnp
 ```
 
+
 Tested On
 =========
 * Ubuntu 14.04 "Trusty Tahr"      fresh install.
+ 
+
+Common Issues
+=============
+See [the WIKI](https://github.com/BeauBouchard/DF-Lazy-Newb-Pack/wiki).
+
+Special Thanks
+=============
+
+ * [@andrewd18](https://github.com/andrewd18/)
+ * [@amfournda](https://github.com/amfournda/)
+ * [@Captain Duck](https://www.youtube.com/playlist?list=PL06686270DA5FF439)
+ * [@Dwimenor](https://github.com/Dwimenor/)
+ * [@fricy](https://github.com/fricy/)
+ * [@splintermind](https://github.com/splintermind/)
+ * [@PeridexisErrant](http://www.bay12forums.com/smf/index.php?topic=126076.0)
+ * [@Zweistein](http://zweistein.cz/)
