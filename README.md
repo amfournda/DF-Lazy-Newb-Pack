@@ -1,11 +1,11 @@
 
-Lazy Newb Pack Linux V0.40.09
+Lazy Newb Pack Linux V0.40.10
 -------------
 
 I have assembled a small package to get people started on linux using the LNP interface and [Dwarf Therapist v24](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014). Again a Huge Thanks to Tarn, Zach and Splintermind, kiryl, PeridexisErrant, fricy and the others who work on open source!
 
 
-You can download the package at: http://dffd.wimbli.com/file.php?id=8936
+You can download the package at: 
 
 Also Check out the the official thread here: http://www.bay12forums.com/smf/index.php?topic=140966.0
 
@@ -50,47 +50,45 @@ Included Mods
 
 
 
-DF 40.09 Release notes:
+DF 40.10 Release notes:
 -------------
 
 **Major bug fixes**
 
-    * Stopped ESC from ending the game when setting up fort or adventurer
-    * Made constructions use materials properly again
-    * Fixed problem causing domestic underground animals to be placed beyond their number (and then replaced at that new number)
-    * Made people not so eager to jump in on the side of their relatives and friends if the relative/friend is berserk/etc.
-    * Made creatures prefer to flee normally if possible (rather than jumping off cliffs etc.)
-    * Stopped liquid flows in confined spaces from sometimes making items disappear
-    * Made items that froze in ice reappear properly when ice melts
-    * Allowed dwarves interested in marriage to start relationships properly (Quietust)
-    * Removed some vestigial code stopping wagons from moving properly after move/attack speed split
-    * Fixed a wagon AI error that caused them to fail to unload sometimes
-    * Gave wagons the ability to go past each other in certain instances
-    * Made invaders not come back as ghosts
-    * Stopped non-historical dwarves from coming back as ghosts (put in fix for old saves that should lay them to rest soon after unpause)
-    * Stopped ghosts from being considered in regular sight code
-    * Fixed the defend burrow order
-    * Allowed items made from gem materials (including large gems) to be stored in finished goods pile
-    * Fixed broken logic that made trade good hauling require both trade good hauling and lever operation labors
+   * Fixed crash that could happen when refugee rumors were created
+   * Fixed crash from visiting former player fortress with adventurer if certain army is present
+   * Fixed crash related to surgery
+   * Fixed crash that happened when it considered certain units in play for succession
+   * Stopped a conversation crash from talking to mute creatures about their troubles
+   * Allowed flying/climbing wilderness critters to work their way off the map
+   * Fixed problem allow the player to become invisible among many units even when clearly visible
+   * Made running away in terror/fear respect only valid combat location information
+   * Made genuine retreat and alarm state more separate from each other (being alarmed was being equated with flight for morale)
+   * Stopped certain old conflicts from causing alarm
+   * Made people that are attacked briefly have some knowledge of attacker's position
+   * Stopped certain jobs from being able to teleport items and engage in other action-at-a-distance antics
+   * Stopped necromancer towers from doing various inappropriate townish things that lead to tower proliferation etc.
+   * Fixed some reclaim/unretire bugs involving unavailable seeds
+   * Adjusted projectile firing speed which became broken during wagon fix
+
 
 **Other bug fixes/tweaks**
 
-    * Fixed up quarry bush bag job vs. rock nuts
-    * Added appropriate announcements for some additional circumstances under which a fort dwarf could assume a civ-level position
-    * Added embark warning if civ is dead
-    * Added optional confirmation window after preparing embark (default: pops up if points remain)
-    * Printed job after name when following unit
-    * Marked dwarves as "New Arrival" on unit/job screen instead of "No Job" while they are new
-    * Added pole-setting parameters for world gen, allowed north+south pole and no-pole options
-    * Fixed an error causing nearby site maps to be offloaded too often
-    * Made hill dwarf sites put animals in pastures properly
-    * Made animals not placed in pasture/waste/yard get placed even if their preferred type isn't available
-    * Fixed some manual typos (Gorobay)
-    * Initialized strict pop cap to 220 if not present in d_init
-    * Made alerts without names show properly as "Alert State #" in squad mode
-    * Finished updating pineapple raws
-    * Made several export filenames use the format (region)-YYYYY-MM-DD-(etc)
-    * Added error for unrecognized CREATURE in entity raw
+ * Adjusted emotional strain vs. willpower etc. calculation
+ * Made non-extra-sensory creatures also respect z coord of potential targets
+ * Fixed a pathing lag associated to mood dwarves not being able to get to their buildings
+ * Added stockpile option for cut stones
+ * Removed obsolete relieved/drafted thoughts
+ * Made extra-sensory creatures even less perturbable by critters sensed through layers of rock
+ * Stopped erroneous conflicts between certain hunting creatures
+ * Stopped shared/wrestled items from being used for block/parry
+ * Stopped creatures with multiple attacks like hydra from stacking attack modifiers incorrectly
+ * Made attacker always look at target upon initiating attack
+ * Ordered farm plot plant lists by seed availability/name
+ * Lowered cap for wrestle skill gain so it wouldn't be hit triple digits attacking large opponents
+ * Removed double entry of "slabs" from stocks screen
+ * Adjusted 'v' menu location for window height (so it wouldn't overwrite certain lists, etc.)
+ * Fixed a few typos causing double periods in personality paragraphs
 
   Dependencies
 -------------
