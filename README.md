@@ -19,7 +19,7 @@ Mac Version: [Fricy's MacNewbie Pack](http://www.bay12forums.com/smf/index.php?t
 
 Included Mods
 -------------
-* Lazy Newb Pack for Linux 0.5.3-SNAPSHOT-20130822
+* [Lazy Newb Pack for Linux 0.5.3-SNAPSHOT-20130822](https://bitbucket.org/Dricus/lazy-newbpack/overview)
 * Utilities:
     * [Dwarf Therapist v25](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014) 
     * [Soundsense r43](http://df.zweistein.cz/soundsense/) (need to run auto update on first use)
