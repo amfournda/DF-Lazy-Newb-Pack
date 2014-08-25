@@ -2,7 +2,7 @@
 Lazy Newb Pack Linux V0.40.10
 -------------
 
-I have assembled a small package to get people started on linux using the LNP interface and [Dwarf Therapist v24](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014). Again a Huge Thanks to Tarn, Zach and Splintermind, kiryl, PeridexisErrant, fricy and the others who work on open source!
+I have assembled a small package to get people started on linux using the LNP interface and [Dwarf Therapist v25](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014). Again a Huge Thanks to Tarn, Zach and Splintermind, kiryl, PeridexisErrant, fricy and the others who work on open source!
 
 
 You can download the package at: 
@@ -21,7 +21,7 @@ Included Mods
 -------------
 * Lazy Newb Pack for Linux 0.5.3-SNAPSHOT-20130822
 * Utilities:
-    * [Dwarf Therapist v24](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014) 
+    * [Dwarf Therapist v25](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014) 
     * [Soundsense r43](http://df.zweistein.cz/soundsense/) (need to run auto update on first use)
     * [qfconvert 2.04](http://www.joelpt.net/quickfort/)
     * [chromafort 2010-04-25](http://www.bay12forums.com/smf/index.php?topic=55025.0)
