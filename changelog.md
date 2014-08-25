@@ -7,7 +7,8 @@ DFVersion: 0.40.10
 Revision: R0
 
 
-Updated Dwarf Therapist to Version 24.0
+Updated Dwarf Therapist to 25.0 release, 40.10 layouts (win/linux), 
+
 
 
 
