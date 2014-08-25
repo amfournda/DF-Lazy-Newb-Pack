@@ -143,15 +143,22 @@ Common Issues
 =============
 See [the WIKI](https://github.com/BeauBouchard/DF-Lazy-Newb-Pack/wiki).
 
-Special Thanks
+Credits & Special Thanks
 =============
 
- * [@andrewd18](https://github.com/andrewd18/)
+ * [@andrewd18](https://github.com/andrewd18/) Andrew Dorney made the awesome linux LNP isntaller script
  * [@amfournda](https://github.com/amfournda/)
  * [@Captain Duck](https://www.youtube.com/playlist?list=PL06686270DA5FF439)
+ * [@Dricus](https://github.com/Dricus)   Dirk Groot is the creator of the cross platform LNP port
  * [@Dwimenor](https://github.com/Dwimenor/)
  * [@fricy](https://github.com/fricy/)
- * [@LucasUP](https://github.com/LucasUP/)
- * [@splintermind](https://github.com/splintermind/)
+ * [@LucasUP](https://github.com/LucasUP/) Lucas Paquette made the orginal windows LNP 
+ * [@splintermind](https://github.com/splintermind/) Josh, part time wizard works dilligently on Dwarf Therapist
  * [@PeridexisErrant](http://www.bay12forums.com/smf/index.php?topic=126076.0)
  * [@Zweistein](http://zweistein.cz/)
+
+
+If I forgot people, please let me know and I'll include them in the list.
+
+
+
