@@ -151,6 +151,7 @@ Special Thanks
  * [@Captain Duck](https://www.youtube.com/playlist?list=PL06686270DA5FF439)
  * [@Dwimenor](https://github.com/Dwimenor/)
  * [@fricy](https://github.com/fricy/)
+ * [@LucasUP](https://github.com/LucasUP/)
  * [@splintermind](https://github.com/splintermind/)
  * [@PeridexisErrant](http://www.bay12forums.com/smf/index.php?topic=126076.0)
  * [@Zweistein](http://zweistein.cz/)
