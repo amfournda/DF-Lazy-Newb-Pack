@@ -5,7 +5,7 @@ Lazy Newb Pack Linux V0.40.10
 I have assembled a small package to get people started on linux using the LNP interface and [Dwarf Therapist v25](https://github.com/splintermind/Dwarf-Therapist/tree/DF2014). Again a Huge Thanks to Tarn, Zach and Splintermind, kiryl, PeridexisErrant, fricy and the others who work on open source!
 
 
-You can download the package at: 
+You can download the package at: http://dffd.wimbli.com/file.php?id=8936
 
 Also Check out the the official thread here: http://www.bay12forums.com/smf/index.php?topic=140966.0
 
