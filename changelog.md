@@ -1,4 +1,17 @@
-change log
+Change Log
+=====
+Date: 25th August 2014
+
+DFVersion: 0.40.10 
+
+Revision: R0
+
+
+Updated Dwarf Therapist to Version 24.0
+
+
+
+
 ------------------
 Date: 10th August 2014
 
