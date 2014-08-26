@@ -31,4 +31,4 @@ echo
 echo "Fixing the df launcher script"
 sed -i\.bak -e 's/LD_PRELOAD=\/usr\/lib32\/libz.so/LD_PRELOAD=\/lib32\/libz.so.1/g' $LNPATH/df_linux/df
 sed -i -e 's/LD_PRELOAD=\/usr\/lib\/libz.so/LD_PRELOAD=\/lib\/libz.so.1/g' $LNPATH/df_linux/df
-sed -i -e 's/ldconfig -p/\/sbin\/ldconfig -p/g' $LNPATH/df_linux/df
+sed -i -e 's/\\(ldconfig -p/\\(\/sbin\/ldconfig -p/g' $LNPATH/df_linux/df
