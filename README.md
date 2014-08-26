@@ -148,14 +148,15 @@ Credits & Special Thanks
 
  * [@andrewd18](https://github.com/andrewd18/) Andrew Dorney made the awesome linux LNP isntaller script
  * [@amfournda](https://github.com/amfournda/)
- * [@Captain Duck](https://www.youtube.com/playlist?list=PL06686270DA5FF439)
+ * [@Captain Duck](https://www.youtube.com/playlist?list=PL06686270DA5FF439) 
+ * [@Daveralph](https://github.com/daveralph1234/LazyNewbPack/) continued working on LNP after Dricus 
  * [@Dricus](https://github.com/Dricus)   Dirk Groot is the creator of the cross platform LNP port
- * [@Dwimenor](https://github.com/Dwimenor/)
- * [@fricy](https://github.com/fricy/)
+ * [@Dwimenor](https://github.com/Dwimenor/) Created a workaround for LNP, as well as providing linux support
+ * [@fricy](https://github.com/fricy/) Maintains the MacNewbie pack Reborn as well as supporting essential gaphic repo
  * [@LucasUP](https://github.com/LucasUP/) Lucas Paquette made the orginal windows LNP 
  * [@splintermind](https://github.com/splintermind/) Josh, part time wizard works dilligently on Dwarf Therapist
  * [@PeridexisErrant](http://www.bay12forums.com/smf/index.php?topic=126076.0)
- * [@Zweistein](http://zweistein.cz/)
+ * [@Zweistein](http://zweistein.cz/) Created Soundsense
 
 
 If I forgot people, please let me know and I'll include them in the list.
